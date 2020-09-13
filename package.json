@@ -1,6 +1,6 @@
 {
     "name": "react-native-system-setting",
-    "version": "1.7.5",
+    "version": "1.7.6",
     "description": "provide some system setting APIs. Volume, brightness, wifi, location, bluetooth, airplane...",
     "main": "SystemSetting.js",
     "types": "SystemSetting.d.ts",
@@ -22,14 +22,7 @@
         "bluetooth",
         "airplane"
     ],
-    "author": {
-        "name": "Ninty",
-        "email": "c19354837@hotmail.com",
-        "url": "https://github.com/c19354837"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/c19354837/react-native-system-setting.git"
-    },
+    "author": "bojan@milkinteractive.ch",
+    "repository": "https://github.com/valleyelectronics/react-native-system-setting",
     "license": "MIT"
 }

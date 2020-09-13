@@ -1,10 +1,12 @@
 ## react-native-system-setting
 It provides some system setting APIs for you. Support iOS and Android both.
 
-yarn add @valleyelectronics/react-native-system-settings
+yarn add git+https://github.com/valleyelectronics/react-native-system-setting
 
 Note: This package is a fork of c19354837/react-native-system-setting.
+
 Contribute:
+
     - Fixed the interfaces for switch* (SystemSettings.d.ts)
 
 ### Support
