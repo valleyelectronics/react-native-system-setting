@@ -46,16 +46,16 @@ interface SystemSetting {
   ) => EmitterSubscription;
   removeVolumeListener: (listener?: EmitterSubscription) => void;
   isWifiEnabled: () => Promise<boolean>;
-  switchWifiSilence: () => void;
-  switchWifi: () => void;
+  switchWifiSilence: (complete: () => void) => void;
+  switchWifi: (complete: () => void) => void;
   isLocationEnabled: () => Promise<boolean>;
   getLocationMode: () => Promise<number>;
-  switchLocation: () => void;
+  switchLocation: (complete: () => void) => void;
   isBluetoothEnabled: () => Promise<boolean>;
-  switchBluetooth: () => void;
-  switchBluetoothSilence: () => void;
+  switchBluetooth: (complete: () => void) => void;
+  switchBluetoothSilence: (complete: () => void) => void;
   isAirplaneEnabled: () => Promise<boolean>;
-  switchAirplane: () => void;
+  switchAirplane: (complete: () => void) => void;
   openAppSystemSettings: () => Promise<void>;
   addBluetoothListener: (
     callback: (bluetoothEnabled: boolean) => void
