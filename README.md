@@ -4,6 +4,7 @@ It provides some system setting APIs for you. Support iOS and Android both.
 yarn add @valleyelectronics/react-native-system-settings
 
 Note: This package is a fork of c19354837/react-native-system-setting.
+
 Contribute:
     - Fixed the interfaces for switch* (SystemSettings.d.ts)
 
